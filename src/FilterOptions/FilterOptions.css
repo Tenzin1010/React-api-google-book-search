@@ -1,0 +1,8 @@
+.FilterOptions {
+    padding: 10px;
+}
+
+.FilterOptions option {
+    margin-right: 20px;
+    font-size: 1.1em;
+}

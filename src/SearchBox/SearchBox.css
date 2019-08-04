@@ -1,0 +1,22 @@
+.SearchBox { 
+    position: relative; 
+    margin: 2px;
+  }
+  
+  .SearchBox input {
+     text-indent: 30px;
+     font-size: 1.2em;
+     border: 1px solid #D0CFCE;
+     border-radius: 5px;
+     outline: none;
+  }
+
+  .SearchBox button {
+      width: 20%;
+      padding-left: 4px;
+      border-radius: 3px;
+      margin-left: 2px;
+      font-size: 1.2em;
+  }
+  
+  

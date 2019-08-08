@@ -6,7 +6,7 @@ import BookItem from '../BookItem/BookItem'
 
 class BookList extends Component {
     render() {
-        const list = this.props.files.map((file, key) => <BookItem {...file} key={key} />)
+        const list = this.props.books.map((book, key) => <BookItem {...book} key={key} />)
         return (
             <div className="BookList">
                 {list}
